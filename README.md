@@ -24,7 +24,14 @@ Um sistema web com 3 módulos independentes, servindo como auxíliar ao empreend
 ---
 
 ### Diferencial
-(Pesquisando)
+Concorrentes grandes entregam ecossistemas completos mas complexos e caros, com altas taxas por pedido, mensalidades caras, curva de aprendizado alta. O que torna inviável para o pequeno empreendedor de bairro, que muitas vezes são pessoa que não possuim um capital alto e investimento inicial
+
+**Nossa solução**:
+
+- **Simplicidade extrema**: Interface pensada para quem utiliza caderno e WhatsApp
+- **Custo Acessível**: Sem taxas abusivas por pedido ou mensalidades absurdas
+- **Módulos integrados e diretos**: Marketplace leve (cardápio digital), estoque inteligente (alerta automático de baixa quantidade), Agenda/ Pedidos (substitui o caderno)
+- **Proximidade real**: Nasce de uma dor validade com microempresários reais, não de um suporte genérico
 
 ### Cores
 (Em análise)
