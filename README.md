@@ -12,19 +12,19 @@ Três públicos, um padrão comum: gestão manual, sem ferramenta própria.
 Pequenos produtores e médios empreendedores, sejam eles da zona rural, microempreendedores de Bairro, ONGS ou startups
 
 # Solução
-Um sistema web com 3 módulos independentes, servindo como auxíliar ao empreendedor registrado, possuindo as funções de:
+Um sistema web com 3 módulos independentes, servindo como auxiliar ao empreendedor registrado, possuindo as funções de:
 
 - Marketplace
 - Central de controle de estoque
 - Agenda online
 
 # Nome do sistema
-(Decidindo ainda)
+Conecta+ (Ideia de conectar, fornecedores, empreendedores e consumidores)
 
 ---
 
 ### Diferencial
-Concorrentes grandes entregam ecossistemas completos mas complexos e caros, com altas taxas por pedido, mensalidades caras, curva de aprendizado alta. O que torna inviável para o pequeno empreendedor de bairro, que muitas vezes são pessoa que não possuim um capital alto e investimento inicial
+Concorrentes grandes entregam ecossistemas completos mas complexos e caros, com altas taxas por pedido, mensalidades caras, curva de aprendizado alta. O que torna inviável para o pequeno empreendedor de bairro, que muitas vezes são pessoa que não possuem um capital alto e investimento inicial
 
 **Nossa solução**:
 
@@ -34,13 +34,17 @@ Concorrentes grandes entregam ecossistemas completos mas complexos e caros, com 
 - **Proximidade real**: Nasce de uma dor validade com microempresários reais, não de um suporte genérico
 
 ### Cores
-(Em análise)
+- Primária: Azul #2563EB
+- Secundária: Amarelo-alaranjado 	#F59E0B
+- Complementar dividida: Vermelho-coral
 
 ### Ferramentas que serão utilizadas
 - Vscode
 - Figma
-- Firebase
 - draw.io
+- Supabase PostgreSQL
+- Vercel
+- Railway
 
 ### Linguagens de programação
 (Em análise)
