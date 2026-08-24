@@ -2,14 +2,13 @@
 Projeto de aplicação web da matéria de **PROGRAMAÇÃO PARA WEB**
 
 ## Problema
-Três públicos, um padrão comum: gestão manual, sem ferramenta própria.
+Dois públicos, um padrão comum: gestão manual, sem ferramenta própria.
 
-- **Produtores rurais e feirantes:** dificuldade para escoar produção e organizar encomendas. Dependem de grupos de mensagens bagunçados.
 - **ONGs e abrigos:** sofrem para controlar estoque de doações (alimentos, roupas, ração, medicamentos) e divulgar necessidades urgentes.
 - **Autônomos (manicures, barbeiros, personal trainers, pet shops):** perdem tempo agendando no WhatsApp e sofrem com faltas de clientes.
 
 ## Público alvo
-Pequenos produtores e médios empreendedores, sejam eles da zona rural, microempreendedores de Bairro, ONGS ou startups
+Pequenos e médios empreendedores, sejam eles da zona rural, microempreendedores de Bairro, ONGS ou startups
 
 # Solução
 Um sistema web com 3 módulos independentes, servindo como auxiliar ao empreendedor registrado, possuindo as funções de:
@@ -36,7 +35,7 @@ Concorrentes grandes entregam ecossistemas completos mas complexos e caros, com 
 ### Cores
 - Primária: Azul #2563EB
 - Secundária: Amarelo-alaranjado 	#F59E0B
-- Complementar dividida: Vermelho-coral
+- Complementar dividida: Vermelho-coral #EF4444
 
 ### Ferramentas que serão utilizadas
 - Vscode
