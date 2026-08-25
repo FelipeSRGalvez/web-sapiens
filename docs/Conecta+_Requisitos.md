@@ -1,11 +1,6 @@
 # Documento de Requisitos — Conecta+
 
-**Projeto:** web-sapiens
-**Disciplina:** Programação para Web
-**Sistema:** Conecta+ — plataforma web de gestão para microempreendedores
-**Versão:** 2.0 — escopo nichado para microempreendedores
-
----
+**Versão:** 2.1
 
 ## 1. Visão Geral
 
@@ -35,11 +30,14 @@ Requisitos funcionais descrevem **o que o sistema deve fazer**. Cada requisito a
 |---|---|
 | RF01 | O sistema deve permitir que um visitante crie uma conta de Gerente informando nome completo, e-mail, senha e nome do negócio. |
 | RF02 | O sistema deve rejeitar o cadastro de uma conta com e-mail já existente na base de dados, exibindo mensagem de erro específica. |
+| RF02A | O sistema deve permitir que o Gerente informe o CNPJ do negócio no cadastro ou posteriormente na edição dos dados da conta, sendo este campo de preenchimento opcional. |
+| RF02B | O sistema deve validar o formato e o dígito verificador do CNPJ sempre que este campo for preenchido, rejeitando valores inválidos com mensagem de erro específica, sem impedir o cadastro caso o campo seja deixado em branco. |
+| RF02C | O sistema deve rejeitar o cadastro de um CNPJ já vinculado a outra conta existente na base de dados, exibindo mensagem de erro específica. |
 | RF03 | O sistema deve permitir que um usuário cadastrado (Gerente ou Funcionário) realize login informando e-mail e senha. |
 | RF04 | O sistema deve bloquear o login após 5 tentativas consecutivas de senha incorreta para o mesmo e-mail, por um período de 15 minutos. |
 | RF05 | O sistema deve permitir que o usuário solicite redefinição de senha por meio de um link enviado ao e-mail cadastrado, válido por até 30 minutos. |
 | RF06 | O sistema deve permitir que o usuário logado encerre sua sessão (logout) a partir de qualquer página do sistema. |
-| RF07 | O sistema deve permitir que o Gerente edite os dados do negócio: nome, telefone de contato, endereço e categoria de atuação. |
+| RF07 | O sistema deve permitir que o Gerente edite os dados do negócio: nome, telefone de contato, endereço, categoria de atuação e CNPJ. |
 
 ### 2.2 Gestão de Usuários e Perfis de Acesso
 
@@ -211,3 +209,4 @@ Para evitar ambiguidade sobre os limites do sistema, ficam explicitamente **fora
 |---|---|---|
 | 1.0 | — | Versão inicial, com público-alvo amplo (produtores rurais, ONGs, autônomos). |
 | 2.0 | — | Escopo nichado exclusivamente para microempreendedores; requisitos reescritos para eliminar ambiguidades e adicionar critérios verificáveis; adição da Matriz de Permissões, Regras de Negócio e seção Fora de Escopo. |
+| 2.1 | — | Adicionado campo de CNPJ (opcional) no cadastro e edição da conta do negócio, com validação de formato e unicidade (RF02A, RF02B, RF02C). |
